@@ -28,7 +28,7 @@ public class LambdaFunctions {
 
 
     private int operate(int a, int b, Operation op) {
-        return op.operation(a, b)
+        return op.operation(a, b);
     }
 }
 interface Operation{
